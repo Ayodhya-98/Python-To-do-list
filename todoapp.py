@@ -9,9 +9,20 @@ def display_menu():
     print("5- Delete item")
     print("6- Exit the Programme")
     
+def display_list():
+   
+    
+    
   
 
 while True:
     display_menu()
+    choice=int(input("Please enter your choice :"))
+    if choice==1:
+        
+    
+    
+    
+    
     
     
