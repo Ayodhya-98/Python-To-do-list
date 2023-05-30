@@ -10,7 +10,7 @@ def display_menu():
     print("6- Exit the Programme")
     
 def display_list():
-   
+   pass
     
     
   
@@ -20,7 +20,7 @@ while True:
     choice=int(input("Please enter your choice :"))
     if choice==1:
         
-  # 19.10 idla balanna  
+  
     
     
     
