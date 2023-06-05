@@ -22,6 +22,7 @@ def add_item(task):
     todo_list.append(task)
     
 def complete_task(task_number):
+    task=todo_list[task_number-1]
     
     
   
