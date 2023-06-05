@@ -10,7 +10,10 @@ def display_menu():
     print("6- Exit the Programme")
     
 def display_list():
-   pass
+   for item in todo_list:
+       task_name=item[0]
+       task_status=item[1]
+       print(f"{item}")
 
 def add_item(task):
     todo_list.append(task)
@@ -26,7 +29,9 @@ while True:
         item_name=input("Enter the Tsk name :")
         is_complete=False
         task=(item_name, is_complete)
-        add_item()
+        add_item(task)
+    elif choice==3:
+        item_number=int(input("Ener the task number to complete :"))
               
   
   
