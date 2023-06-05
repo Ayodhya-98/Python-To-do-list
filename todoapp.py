@@ -21,6 +21,9 @@ def display_list():
 def add_item(task):
     todo_list.append(task)
     
+def complete_task(task_number):
+    
+    
   
 
 while True:
@@ -34,7 +37,8 @@ while True:
         task=(item_name, is_complete)
         add_item(task)
     elif choice==3:
-        item_number=int(input("Enter the task number to complete :"))
+        task_number=int(input("Enter the task number to complete :"))
+        
               
   
   
