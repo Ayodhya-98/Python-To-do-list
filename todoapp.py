@@ -10,10 +10,13 @@ def display_menu():
     print("6- Exit the Programme")
     
 def display_list():
+    
    for item in todo_list:
+       task_number=1
        task_name=item[0]
        task_status=item[1]
-       print(f"{item}")
+       print(f"{task_number} | {task_name} | {task_status}")
+       task_number+=1
 
 def add_item(task):
     todo_list.append(task)
