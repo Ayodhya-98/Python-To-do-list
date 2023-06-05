@@ -19,7 +19,10 @@ while True:
     display_menu()
     choice=int(input("Please enter your choice :"))
     if choice==1:
-        
+        display_list()
+    elif choice==2:
+        item_name=input("Enter the Tsk name :")
+        task=(item_name,)      
   
     
     
