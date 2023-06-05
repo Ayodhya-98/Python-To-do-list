@@ -11,7 +11,9 @@ def display_menu():
     
 def display_list():
    pass
-    
+
+def add_item(task):
+    todo_list.append(task)
     
   
 
@@ -22,7 +24,11 @@ while True:
         display_list()
     elif choice==2:
         item_name=input("Enter the Tsk name :")
-        task=(item_name,)      
+        is_complete=False
+        task=(item_name, is_complete)
+        add_item()
+              
+  
   
     
     
