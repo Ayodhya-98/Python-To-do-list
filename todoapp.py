@@ -34,7 +34,7 @@ while True:
         task=(item_name, is_complete)
         add_item(task)
     elif choice==3:
-        item_number=int(input("Ener the task number to complete :"))
+        item_number=int(input("Enter the task number to complete :"))
               
   
   
