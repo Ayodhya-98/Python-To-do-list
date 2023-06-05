@@ -29,7 +29,7 @@ while True:
     if choice==1:
         display_list()
     elif choice==2:
-        item_name=input("Enter the Tsk name :")
+        item_name=input("Enter the Task name :")
         is_complete=False
         task=(item_name, is_complete)
         add_item(task)
