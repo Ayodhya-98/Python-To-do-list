@@ -21,9 +21,9 @@ def display_list():
 def add_item(task):
     todo_list.append(task)
     
-def complete_task(task_number):
+def change_task_status(task_number,task_status):
     task=todo_list[task_number-1]
-    completed_task=(task[0],True)
+    completed_task=(task[0],task_status)
     todo_list[task_number-1]=completed_task
     
   
@@ -40,7 +40,10 @@ while True:
         add_item(task)
     elif choice==3:
         task_number=int(input("Enter the task number to complete :"))
-        
+        change_task_status(task_number,True)
+    elif choice==4:
+        task_number=int(input("Enter the task number to incomplete :"))
+        change_task_status(task_number,False)
               
   
   
