@@ -23,7 +23,8 @@ def add_item(task):
     
 def complete_task(task_number):
     task=todo_list[task_number-1]
-    
+    completed_task=(task[0],True)
+    todo_list[task_number-1]=completed_task
     
   
 
