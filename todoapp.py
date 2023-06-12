@@ -39,7 +39,7 @@ while True:
         task=(item_name, is_complete)
         add_item(task)
     elif choice==3:
-        task_number=int(input("Enter the task number to complete :"))
+        task_number=int(input("Enter the Task number to complete :"))
         change_task_status(task_number,True)
     elif choice==4:
         task_number=int(input("Enter the task number to incomplete :"))
