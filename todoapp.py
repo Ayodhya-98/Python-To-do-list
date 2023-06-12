@@ -42,7 +42,7 @@ while True:
         task_number=int(input("Enter the task number to complete :"))
         change_task_status(task_number,True)
     elif choice==4:
-        task_number=int(input("Enter the Task number to incomplete :"))
+        task_number=int(input("Enter the task number to incomplete :"))
         change_task_status(task_number,False)
               
   
